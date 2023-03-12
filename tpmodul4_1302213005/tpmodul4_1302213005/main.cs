@@ -8,5 +8,17 @@ class main
         Kelurahan kelurahan = Kelurahan.Batununggal;
 
         Console.WriteLine(getKodePos(kelurahan));
+
+        DoorMachine door = new DoorMachine();
+
+        door.currentState();
+        door.command();
+        door.currentState();
+        door.command();
+        door.currentState();
+        door.command();
+        door.currentState();
+        door.command();
+        door.currentState();
     }
 }
